@@ -45,8 +45,8 @@ def cartoonize_image(image):
 
 
 # Load the image
-image = cv.imread('image/IMG_4303.JPG')
-# image = cv.imread('image/new_world2.png')
+# image = cv.imread('image/IMG_4303.JPG')
+image = cv.imread('image/new_world2.png')
 
 # Apply cartoonize function
 cartoon_image = cartoonize_image(image)
